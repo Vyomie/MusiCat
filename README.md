@@ -40,17 +40,23 @@ A lightweight classifier model is recommended when running on a Raspberry Pi.
 ## Installation
 
 Clone the repository:
-``git clone https://github.com/Vyomie/MusiCat.git``
-``cd MusiCat``
+```bash
+git clone https://github.com/Vyomie/MusiCat.git
+cd MusiCat
+```
 
 Install dependencies:
-``pip install -r requirements.txt``
+```bash
+pip install -r requirements.txt
+```
 
 Add your API keys directly into the bot file if using hardcoded configuration.
 
 ## Running the Bot
 
-``python main.py``
+```bash
+python main.py
+```
 
 Ensure Spotify, Discord, and OpenRouter credentials are configured correctly.
 
